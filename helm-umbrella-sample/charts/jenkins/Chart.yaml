@@ -1,0 +1,6 @@
+apiVersion: v2
+name: jenkins
+description: Jenkins CI 서브차트 (오픈소스, 단순 예시)
+type: application
+version: 0.1.0
+appVersion: "lts-jdk21"

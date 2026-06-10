@@ -1,0 +1,13 @@
+# 서브차트 기본값. root values.yaml 의 argocd: 블록이 덮어쓴다.
+# 실제 Argo CD 는 다컴포넌트(서버/repo-server/redis 등)지만, 예시는 server 1개로 단순화.
+image:
+  repository: argoproj/argocd
+  tag: v2.13.0
+service:
+  port: 80
+ingress:
+  enabled: false
+  className: nginx
+  host: argocd.local
+  path: /
+  annotations: {}

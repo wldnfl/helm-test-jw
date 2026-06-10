@@ -1,0 +1,6 @@
+apiVersion: v2
+name: db
+description: PostgreSQL 데이터베이스 서브차트 (StatefulSet + 영속 볼륨)
+type: application
+version: 0.1.0
+appVersion: "16"

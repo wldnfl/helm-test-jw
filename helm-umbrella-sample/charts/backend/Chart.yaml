@@ -1,6 +1,0 @@
-apiVersion: v2
-name: backend
-description: 백엔드 서브차트 (umbrella 의 한 컴포넌트)
-type: application
-version: 0.1.0
-appVersion: "2.1.0"

@@ -1,8 +1,0 @@
-# 서브차트 자체 기본값. root values.yaml 의 backend: 블록이 덮어쓴다.
-replicaCount: 1
-image:
-  repository: myteam/backend
-  tag: latest
-service:
-  port: 8081
-env: {}

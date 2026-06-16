@@ -1,8 +1,8 @@
 apiVersion: v2
-name: sample-umbrella
+# name: sample-umbrella
 description: 멀티 차트(umbrella) 배포 예시 — root chart 아래 charts/ 에 서브차트(frontend/backend/db/jenkins/argocd) vendoring
 type: application
-version: 0.1.0
+# version: 0.1.0
 appVersion: "1.0.0"
 
 # 서브차트는 charts/ 에 "실물"로 들어 있다(vendored). Helm 이 charts/ 안의 차트를 자동으로 서브차트로 포함하므로
